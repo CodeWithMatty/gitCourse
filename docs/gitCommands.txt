@@ -1,0 +1,39 @@
+COMANDI VARI
+# controllo version git locale
+	git version
+	
+# Connettere il tuo git locale con il tuo GitHub. Da fare solo una volta
+	git config  --global user.name "CodeWithMatty
+	# controllare che sia ok
+	git config --global user.name
+	# impostare l'email
+	git config --global user.email "youremail@gmail.com"
+	# controllare email
+	git config --global user.email
+	
+COME CLONARE UN REPOSITORY GitHub
+	git clone 
+
+COME ORGANIZZARE UNA NUOVA DIRECTORY (NUOVO PROGETTO)
+	git init
+	git add .
+	git commit -m "first commit"
+	git push(serve per rendere pubblico un file)
+	git log    da la lista dei commit nella history
+	git status se hai qualcosa di modificato che non e stato messo nello stage 
+	git branch su quale branch stai lavorando
+	git branch -r (remote(tutte le branch remote))
+	git branch -a (all(tutte le branch locali e remote))
+	git branch -d (delate(elimina la branch nominata))
+	git branch nome dalla branch
+	git checkout(nome della branch) (cambia da branch a branch)
+	git checkout - (vai alla branch precedente)
+	git push --set-upstream origin (nome della branch)(mette la branch sul cloud)
+	git pull (aggiorni le ultime versioni dal cloud github dalla branch corrispondente)
+PER CAMBIARE DIRECTORY(NON C ENTRA MA VABBE)
+	#per andare su cd ..
+	#per andare su di due directory cd..\..\ ecc...
+	#per stare su quella directory cd .
+	#per vedere i file e le directory dir
+	#per i file nascosti dir /a:h
+
